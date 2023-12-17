@@ -1,0 +1,85 @@
+body{
+  background-color: azure;
+  position: relative;
+}
+
+.start_game{
+  text-align: center;
+}
+
+.indication{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.main_box{
+  width: 800px;
+  height: 500px;
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rock_button{
+display: inline-block;
+width: 200px;
+height: 300px;
+margin-top: 30px;
+padding-top: 30px;
+cursor: pointer;
+}
+
+.rock_picture{
+height: 300px;
+cursor: pointer;
+}
+
+
+.paper_button{
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  margin-top: 30px;
+  padding-top: 30px;
+  cursor: pointer;
+}
+
+.paper_picture{
+  height: 300px;
+  cursor: pointer;
+}
+
+.scissors_button{
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  margin-top: 30px;
+  padding-top: 30px;
+  cursor: pointer;
+}
+
+.scissors_picture{
+  height: 300px;
+  cursor: pointer;
+}
+
+.reset_button{
+  display: inline-block;
+  position:absolute;
+  top: 40px;
+  right: 50px;
+
+}
+
+.reset_button button{
+  background-color: rgb(239, 239, 173);
+  cursor: pointer;
+  border-radius: 10px 10px 10px 10px;
+  text-shadow: 0.5px 1px red;
+  
+}

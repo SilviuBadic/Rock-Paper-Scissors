@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../Rock-Paper-Scissors/rock-paper-scissors.css" rel="stylesheet">
+  <title>Rock-paper-scissors</title>
+</head>
+<body>
+  <h1 class="start_game">Let's play the game: Rock-paper-scissors</h1>
+  <p class="indication">You have to pick one of the three following items below:</p>
+   
+  <div class="main_box">
+  
+    <div class="rock_button">
+  
+      <button class="display_button" type="button" onclick="
+       gameResult('rock') ;
+       miniScore();
+       pickComputerMove();
+        ">
+        <img class="rock_picture" src="..//Rock-Paper-Scissors/Pictures/Rock.jpg">
+        <p class="main_object">ROCK</p>
+      </button>
+    </div>
+    
+    <div class="paper_button">
+      <button class="display_button" onclick="
+        gameResult('paper');
+        miniScore2();
+        pickComputerMove();">        
+        
+        <img class="paper_picture" src="../Rock-Paper-Scissors/Pictures/Paper.jpg">
+        <p class="main_object">PAPER</p>
+      </button>
+    </div>
+
+    <div class="scissors_button">
+      <button class="display_button" onclick="
+          gameResult('scissors');
+          miniScore3();
+          pickComputerMove(); ">
+        <img class="scissors_picture" src="../Rock-Paper-Scissors/Pictures/Scissors.jpg">
+        <p class="main_object">SCISSORS</p>
+      </button>
+    </div>
+
+    
+
+    <div class="reset_button">
+      <button onclick= "
+        score.wins= 0;
+        score.losses= 0;
+        score.ties= 0;
+        localStorage.removeItem('score');
+        updateScoreElement();
+        ">
+       reset the score
+      </button>
+    </div>
+
+    <div class="auto_play">
+      <button onclick="
+        autoPlay();
+        ">Auto Play</button>
+
+    </div>
+
+  <div class="results">
+    <p class="outputs">Outputs:</p>
+    <p class="js-winner result">You win</p>
+    <p class="js-moves"></p>
+    <p class="js-score"></p>
+
+  </div>
+    
+  <div class="final_picks">
+    <p class="result2">Thumbnails</p>     
+    <p class="a2"></p>
+    <p class="a3">...</p>
+      
+  </div>
+
+
+</div>
+
+<script src="../Rock-Paper-Scissors/r-p-s.js">
+</script>
+</body>
+</html>
