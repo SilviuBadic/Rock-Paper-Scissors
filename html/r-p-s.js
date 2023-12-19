@@ -20,8 +20,7 @@ function pickComputerMove() {
       
     if (randomNumber > 0 && randomNumber < 1/3  ) {
       computerChoice = 'rock';
-      document.querySelector('.a3').innerHTML =
-      `<img src="../html/rock.jpg" class="small_result"> Computer`;
+      document.querySelector('.a3').innerHTML = `<img src="../html/rock.jpg" class="small_result"> Computer`;
     
     }
     else if ( randomNumber >= 1/3 && randomNumber < 2/3){
@@ -137,14 +136,13 @@ function pickComputerMove() {
   function miniScore(){
     let playerMove;
 
-      document.querySelector('.a2').innerHTML =
-      `Me <img src="../html/rock.jpg" class="small_result">`
+      document.querySelector('.a2').innerHTML = `Me <img src="../html/rock.jpg" class="small_result">`
 
       let computerChoice='';
       
     if (randomNumber > 0 && randomNumber < 1/3  ) {
       computerChoice = 'rock';
-      document.querySelector('.a3').innerHTML = `<img src="../html/rock.jpg" class="small_result"> Computer`;
+      document.querySelector('.a3').innerHTML = `<img src="../html/rock.JPG" class="small_result"> Computer`;
     
     }
     else if ( randomNumber >= 1/3 && randomNumber < 2/3){
@@ -168,7 +166,7 @@ function pickComputerMove() {
       
     if (randomNumber > 0 && randomNumber < 1/3  ) {
       computerChoice = 'rock';
-      document.querySelector('.a3').innerHTML = `<img src="../html/rock.jpg" class="small_result"> Computer`;
+      document.querySelector('.a3').innerHTML = `<img src="../html/rock.JPG" class="small_result"> Computer`;
     
     }
     else if ( randomNumber >= 1/3 && randomNumber < 2/3){
@@ -193,7 +191,7 @@ function pickComputerMove() {
       
     if (randomNumber > 0 && randomNumber < 1/3  ) {
       computerChoice = 'rock';
-      document.querySelector('.a3').innerHTML = `<img src="../html/rock.jpg" class="small_result"> Computer`;
+      document.querySelector('.a3').innerHTML = `<img src="../html/rock.JPG" class="small_result"> Computer`;
     
     }
     else if ( randomNumber >= 1/3 && randomNumber < 2/3){
