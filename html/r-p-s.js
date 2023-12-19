@@ -21,17 +21,17 @@ function pickComputerMove() {
     if (randomNumber > 0 && randomNumber < 1/3  ) {
       computerChoice = 'rock';
       document.querySelector('.a3').innerHTML =
-      `<img src="../Pictures/rock.jpg" class="small_result"> Computer`;
+      `<img src="../rock.jpg" class="small_result"> Computer`;
     
     }
     else if ( randomNumber >= 1/3 && randomNumber < 2/3){
       computerChoice = 'paper';
-      document.querySelector('.a3').innerHTML = `<img src="../html/Pictures/paper.jpg" class="small_result"> Computer`;
+      document.querySelector('.a3').innerHTML = `<img src="../html/paper.jpg" class="small_result"> Computer`;
       }
   
     else{
       computerChoice = 'scissors';
-      document.querySelector('.a3').innerHTML = `<img src="../html/Pictures/scissors.jpg" class="small_result"> Computer`;
+      document.querySelector('.a3').innerHTML = `<img src="../html/scissors.jpg" class="small_result"> Computer`;
     
     }
     
@@ -138,24 +138,24 @@ function pickComputerMove() {
     let playerMove;
 
       document.querySelector('.a2').innerHTML =
-      `Me <img src="../html/Pictures/rock.jpg" class="small_result">`
+      `Me <img src="../html/rock.jpg" class="small_result">`
 
       let computerChoice='';
       
     if (randomNumber > 0 && randomNumber < 1/3  ) {
       computerChoice = 'rock';
       document.querySelector('.a3').innerHTML =
-      `<img src="../html/Pictures/rock.jpg" class="small_result"> Computer`;
+      `<img src="../html/rock.jpg" class="small_result"> Computer`;
     
     }
     else if ( randomNumber >= 1/3 && randomNumber < 2/3){
       computerChoice = 'paper';
-      document.querySelector('.a3').innerHTML = `<img src="../html/Pictures/paper.jpg" class="small_result"> Computer`;
+      document.querySelector('.a3').innerHTML = `<img src="../html/paper.jpg" class="small_result"> Computer`;
       }
   
     else{
       computerChoice = 'scissors';
-      document.querySelector('.a3').innerHTML = `<img src="../html/Pictures/scissors.jpg" class="small_result"> Computer`;
+      document.querySelector('.a3').innerHTML = `<img src="../html/scissors.jpg" class="small_result"> Computer`;
     
     }
   }
@@ -164,24 +164,24 @@ function pickComputerMove() {
     let playerMove;
 
       document.querySelector('.a2').innerHTML =
-      `Me <img src="../html/Pictures/paper.jpg" class="small_result">`
+      `Me <img src="../html/paper.jpg" class="small_result">`
 
       let computerChoice='';
       
     if (randomNumber > 0 && randomNumber < 1/3  ) {
       computerChoice = 'rock';
       document.querySelector('.a3').innerHTML =
-      `<img src="../html/Pictures/rock.jpg" class="small_result"> Computer`;
+      `<img src="../html/rock.jpg" class="small_result"> Computer`;
     
     }
     else if ( randomNumber >= 1/3 && randomNumber < 2/3){
       computerChoice = 'paper';
-      document.querySelector('.a3').innerHTML = `<img src="../html/Pictures/paper.jpg" class="small_result"> Computer`;
+      document.querySelector('.a3').innerHTML = `<img src="../html/paper.jpg" class="small_result"> Computer`;
       }
   
     else{
       computerChoice = 'scissors';
-      document.querySelector('.a3').innerHTML = `<img src="../html/Pictures/scissors.jpg" class="small_result"> Computer`;
+      document.querySelector('.a3').innerHTML = `<img src="../html/scissors.jpg" class="small_result"> Computer`;
     
     }
   }
@@ -190,24 +190,24 @@ function pickComputerMove() {
     let playerMove;
 
       document.querySelector('.a2').innerHTML =
-      `Me <img src="../html/Pictures/scissors.jpg" class="small_result">`
+      `Me <img src="../html/scissors.jpg" class="small_result">`
 
       let computerChoice='';
       
     if (randomNumber > 0 && randomNumber < 1/3  ) {
       computerChoice = 'rock';
       document.querySelector('.a3').innerHTML =
-      `<img src="../html/Pictures/rock.jpg" class="small_result"> Computer`;
+      `<img src="../html/rock.jpg" class="small_result"> Computer`;
     
     }
     else if ( randomNumber >= 1/3 && randomNumber < 2/3){
       computerChoice = 'paper';
-      document.querySelector('.a3').innerHTML = `<img src="../html/Pictures/paper.jpg" class="small_result"> Computer`;
+      document.querySelector('.a3').innerHTML = `<img src="../html/paper.jpg" class="small_result"> Computer`;
       }
   
     else{
       computerChoice = 'scissors';
-      document.querySelector('.a3').innerHTML = `<img src="../html/Pictures/scissors.jpg" class="small_result"> Computer`;
+      document.querySelector('.a3').innerHTML = `<img src="../html/scissors.jpg" class="small_result"> Computer`;
     
     }
   }
