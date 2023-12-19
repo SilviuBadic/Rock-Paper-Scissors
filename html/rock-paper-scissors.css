@@ -38,7 +38,7 @@ border: none;
 }
 
 .rock_picture{
-height: 240px;
+height: 300px;
 cursor: pointer;
 border-radius: 120px;
 }
@@ -54,7 +54,7 @@ border-radius: 120px;
 }
 
 .paper_picture{
-  height: 240px;
+  height: 300px;
   cursor: pointer;
   border-radius: 120px;
 }
@@ -69,7 +69,7 @@ border-radius: 120px;
 }
 
 .scissors_picture{
-  height: 240px;
+  height: 300px;
   cursor: pointer;
   border-radius: 120px;
 }
