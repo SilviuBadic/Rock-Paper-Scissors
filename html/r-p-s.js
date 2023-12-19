@@ -36,18 +36,29 @@ function pickComputerMove() {
     
     return computerChoice;
 }
+
   let isAutoPlaying = false;
   let intervalId;
+  let intervalId2;
+  let colored_button;
+
   function autoPlay(){
     if (!isAutoPlaying){
       intervalId = setInterval(function(){
-        const playerM = pickComputerMove(); 
-        gameResult(playerM);
-      }, 1500);
-      isAutoPlaying = true;
+        const playerMove = pickComputerMove(); 
+        gameResult(playerMove);
+      }, 2500);
+      intervalId2 = setInterval(function(){
+        const calcMove = pickComputerMove2();
+        gameResult(calcMove);
+      }, 2500);
+      isAutoPlaying = true;  
+      colored_button = document.getElementById('ap_button').style.backgroundColor = 'green';
   } else {
     clearInterval(intervalId);
+    clearInterval(intervalId2);
     isAutoPlaying = false;
+    colored_button = document.getElementById('ap_button').style.backgroundColor = 'white';
   }
 
 }
@@ -134,7 +145,6 @@ function pickComputerMove() {
    updateScoreElement();
    
   function miniScore(){
-    let playerMove;
 
       document.querySelector('.a2').innerHTML = `Me <img src="../html/rock.jpg" class="small_result">`
 
@@ -158,7 +168,6 @@ function pickComputerMove() {
   }
 
   function miniScore2(){
-    let playerMove;
 
       document.querySelector('.a2').innerHTML = `Me <img src="../html/paper.jpg" class="small_result">`
 
@@ -182,7 +191,6 @@ function pickComputerMove() {
   }
 
   function miniScore3(){
-    let playerMove;
 
       document.querySelector('.a2').innerHTML =
       `Me <img src="../html/scissors.jpg" class="small_result">`
@@ -204,4 +212,27 @@ function pickComputerMove() {
       document.querySelector('.a3').innerHTML = `<img src="../html/scissors.jpg" class="small_result"> Computer`;
     
     }
+  }
+
+  function pickComputerMove2() {
+    const randomNumber2 = Math.random();
+  
+    let computerChoice2='';
+        
+      if (randomNumber2 > 0 && randomNumber2 < 1/3  ) {
+        computerChoice2 = 'rock';
+        document.querySelector('.a2').innerHTML = `<img src="../html/rock.jpg" class="small_result"> Me`;
+      
+      }
+      else if ( randomNumber2 >= 1/3 && randomNumber2 < 2/3){
+        computerChoice2 = 'paper';
+        document.querySelector('.a2').innerHTML = `<img src="../html/paper.jpg" class="small_result"> Me`;
+        }
+    
+      else{
+        computerChoice2 = 'scissors';
+        document.querySelector('.a2').innerHTML = `<img src="../html/scissors.jpg" class="small_result"> Me`;
+      }
+      
+      return computerChoice2;
   }
