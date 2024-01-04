@@ -205,39 +205,42 @@ border-radius: 120px;
   }
   
   .main_box{
-    width: 80%;
+    width: 90%;
     min-height: 500px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 30% 30% 30%;
     justify-content: space-around;
-    column-gap: 10px;
-    margin-left: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    padding-right: 20px;
   }
 
   .rock_button{
-  height: 80px;
+  height: 70px;
   margin-top: 20px;
   padding-top: 10px;
   cursor: pointer;
   border: none;
+  text-align: left;
   }
   
   .rock_picture{
-  height: 80px;
+  height: 70px;
   cursor: pointer;
   border-radius: 20px;
   }
   
   
   .paper_button{
-    height: 80px;
+    height: 70px;
     margin-top: 20px;
     padding-top: 10px;
     cursor: pointer;
   }
   
   .paper_picture{
-    height: 80px;
+    height: 70px;
     cursor: pointer;
     border-radius: 20px;
   }
@@ -251,7 +254,7 @@ border-radius: 120px;
   }
   
   .scissors_picture{
-    height: 80px;
+    height: 70px;
     cursor: pointer;
     border-radius: 20px;
   }
