@@ -39,10 +39,10 @@ https://github.com/SilviuBadic/rock-paper-scissors-javascript/assets/130041755/a
 
 ## Features
 
-1 -- The main objects of the game (my hands). Three buttons (left - rock, middle - paper, right - scissors)
-2 -- The result represented by two small thumbnails. My choice vs. computer's choices.
-3 -- The outputs represented by: a text calling the winner, a text representing competitors choices, a text that numbers the winns, losses and ties throughout the game
-4 -- Two features which add a bit of complexity to the game: Autoplay, my choices being chosen randomly by the computer. One reset button which resets the score whenever we press the button.
+1 -- The main objects of the game (my hands). Three buttons (left - rock, middle - paper, right - scissors) <br>
+2 -- The result represented by two small thumbnails. My choice vs. computer's choices. <br>
+3 -- The outputs represented by: a text calling the winner, a text representing competitors choices, a text that numbers the winns, losses and ties throughout the game <br>
+4 -- Two features which add a bit of complexity to the game: Autoplay, my choices being chosen randomly by the computer. One reset button which resets the score whenever we press the button. <br>
 
 ## Lessons Learned
 
