@@ -12,13 +12,15 @@ You can check out the live version here:
 [https://silviubadic.github.io/youtube-layout-remake-html-css/html/index.html](http://127.0.0.1:5501/html/index.html)
 
 ## Screenshots
-<img width="943" alt="7" src="https://github.com/SilviuBadic/rock-paper-scissors-javascript/assets/130041755/de3e45f0-5155-4ec6-b1f9-f741ff306214">
+<img width="1050" alt="8" src="https://github.com/SilviuBadic/rock-paper-scissors-javascript/assets/130041755/f3d35a5c-f743-4a61-b742-5543487bc1b7">
 
-">
+
 
 <br>
 <br>
-<img width="943" alt="8" src="https://github.com/SilviuBadic/rock-paper-scissors-javascript/assets/130041755/5774a91a-1464-4c7e-aa01-19dac5e9dbb9">
+<img width="1050" alt="7" src="https://github.com/SilviuBadic/rock-paper-scissors-javascript/assets/130041755/8c21a6fe-3880-429a-b119-96a501b4b381">
+
+
 
 
 
@@ -37,11 +39,7 @@ https://github.com/SilviuBadic/rock-paper-scissors-javascript/assets/130041755/a
 
 ## Features
 
-- A placeholder to enter the to do things
-- Start and end dates options
-- One interactive green Add button to be pressed after choosing the actual to do thing and dates
-- One interactive red Delete button in case we want to delete one of the rows
-- The newKeyDown event which let us press Enter after typing the event, which will proceed the same as the green Add Button
+1 -- 
 
 ## Lessons Learned
 
