@@ -1,28 +1,35 @@
 
 
 # Rock Paper Scissors
-This is one of my first projects using JavaScript. I've tried to make a simple interactive To-Do-List by applying some JavaScript code. The main point of the application
-is to write a to do thing, to set the start and end dates, and then just add it to the next row by pressing the interactive green Add button. 
+This is a classic game well know by everybody. I've been focused on implementing JavaScript code, adding interactivity to my buttons. The rule is to defeat the computer by choosing on of the three images (a rock, a paper and some scissors). Rock beats scissors, scissors cut paper, paper beats rock. 
 
-In case we want to delete one of the rows we can use the other interactive red Delete buttton. We can select the date by typing the date we want or just by pressing the small
-calendar icon and choose from there.
+I wanted to make it a bit harder by adding the thumbnails which shows what every players chosed
 
 
 ## Demo
 
 You can check out the live version here:
-[https://silviubadic.github.io/youtube-layout-remake-html-css/html/index.html](https://silviubadic.github.io/to-do-list-javascript/)
+[https://silviubadic.github.io/youtube-layout-remake-html-css/html/index.html](http://127.0.0.1:5501/html/index.html)
 
 ## Screenshots
-<img width="550" alt="4" src="https://github.com/SilviuBadic/to-do-list-JavaScript/assets/130041755/aa0c8710-82da-4d72-abd6-ac333af68717">
+<img width="943" alt="7" src="https://github.com/SilviuBadic/rock-paper-scissors-javascript/assets/130041755/de3e45f0-5155-4ec6-b1f9-f741ff306214">
+
+">
 
 <br>
 <br>
-<img width="550" alt="5" src="https://github.com/SilviuBadic/to-do-list-JavaScript/assets/130041755/e2c0bdf5-5ad9-4608-b22e-d13d7084cb7f">
+<img width="943" alt="8" src="https://github.com/SilviuBadic/rock-paper-scissors-javascript/assets/130041755/5774a91a-1464-4c7e-aa01-19dac5e9dbb9">
+
+
+
 
 <br>
 <br>
-<img width="550" alt="6" src="https://github.com/SilviuBadic/to-do-list-JavaScript/assets/130041755/670db4cb-e6fa-496e-8536-fb5045587e70">
+
+
+https://github.com/SilviuBadic/rock-paper-scissors-javascript/assets/130041755/a711127a-e5f3-4175-a631-be6197021713
+
+
 
 
 
@@ -51,9 +58,9 @@ It was a good starting point to understand some of the main concepts of JavaScri
 
 ## Related
 
-Here are some related projects of mine (improvements)
+Here are some other related projects
 
-[Rock-Paper-Scissors](https://github.com/SilviuBadic/rock-paper-scissors-javascript) 
+[Portfolio](https://silviubadic.github.io/portfolio/html/index.html) 
 
 [Tic-Tac-Toe](https://github.com/SilviuBadic/tic-tac-toe-javascript)
 
