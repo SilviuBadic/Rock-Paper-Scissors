@@ -8,7 +8,7 @@ I wanted to make it a bit harder by adding a few features, such as: reseting the
 
 ## Demo
 You can check out the live version here:
-http://127.0.0.1:5501/html/index.html
+https://silviubadic.github.io/rock-paper-scissors-javascript/html/index.html
 
 ## Screenshots
 <img width="1050" alt="8" src="https://github.com/SilviuBadic/rock-paper-scissors-javascript/assets/130041755/f3d35a5c-f743-4a61-b742-5543487bc1b7">
