@@ -1,59 +1,40 @@
 
 
 # Rock Paper Scissors
-This is a classic game well know by everybody. I've been focused on implementing JavaScript code, adding interactivity to my buttons. The rule is to defeat the computer by choosing on of the three images (a rock, a paper and some scissors). Rock beats scissors, scissors cut paper, paper beats rock. 
+This is a classic game well know by everybody. I've been focused on implementing JavaScript code, adding interactivity to my buttons. The rule is to defeat the computer after choosing on of the three images (a rock, a paper and some scissors). Rock beats scissors, scissors cut paper, paper beats rock. 
 
-I wanted to make it a bit harder by adding the thumbnails which shows what every players chosed
+I wanted to make it a bit harder by adding a few features, such as: reseting the game whenever the button is pressed; Autoplay; Thumbnails to show the choices in real time, as well as live text which shows the outputs of the game in real time.
 
 
 ## Demo
-
 You can check out the live version here:
 [https://silviubadic.github.io/youtube-layout-remake-html-css/html/index.html](http://127.0.0.1:5501/html/index.html)
 
 ## Screenshots
 <img width="1050" alt="8" src="https://github.com/SilviuBadic/rock-paper-scissors-javascript/assets/130041755/f3d35a5c-f743-4a61-b742-5543487bc1b7">
-
-
-
 <br>
 <br>
 <img width="1050" alt="7" src="https://github.com/SilviuBadic/rock-paper-scissors-javascript/assets/130041755/8c21a6fe-3880-429a-b119-96a501b4b381">
-
-
-
-
-
-
 <br>
 <br>
 
 
 https://github.com/SilviuBadic/rock-paper-scissors-javascript/assets/130041755/a711127a-e5f3-4175-a631-be6197021713
 
-
-
-
-
-
-
 ## Features
 
-1 -- The main objects of the game (my hands). Three buttons (left - rock, middle - paper, right - scissors) <br>
+1 -- The main objects of the game (my hands). Three buttons (left - rock, middle - paper, right - scissors). <br>
 2 -- The result represented by two small thumbnails. My choice vs. computer's choices. <br>
-3 -- The outputs represented by: a text calling the winner, a text representing competitors choices, a text that numbers the winns, losses and ties throughout the game <br>
-4 -- Two features which add a bit of complexity to the game: Autoplay, my choices being chosen randomly by the computer. One reset button which resets the score whenever we press the button. <br>
+3 -- The outputs represented by: a text calling the winner, a text representing competitors choices, a text that numbers the winns, losses and ties throughout the game. <br>
+4 -- Two features which add a bit of complexity to the game: Autoplay, my choices being randomly chosen by the computer. One reset button which resets the score whenever we press the button. <br>
 
 ## Lessons Learned
+Other than working with functions, I've managed to deepen my knowledge in construction Conditional Statements, creating functionalities and relations between different functions and objects. I've learned a bit about JSON syntax, I've put some addEventListeners to work.
+## Optimizations.
 
-The main lesson was to understand how a function works, how to work with events, how to call a function when a specific button is clicked.
-
-I've implemented the for loop, displayed some arrays, I've used DOM for the first time, in order to access and change the elements from the main HTML page.
-
-## Optimizations
-
-It was a good starting point to understand some of the main concepts of JavaScript, to display some simple functions and give my page a bit of dynamism.
-
+- Applying JSON for storing and transporting data.
+- Applying event listeners using keydown event, which occurs just when we press 'R' for choosing the Rock object, 'S' for choosing the Scissors object and 'P' for Paper. This method will immediately trigger.
+- Conditional statements.
 
 
 
