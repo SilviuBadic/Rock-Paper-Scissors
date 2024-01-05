@@ -205,38 +205,42 @@ border-radius: 120px;
   }
   
   .main_box{
-    width: 70%;
+    width: 300px;
     min-height: 500px;
     display: flex;
-    padding-right: 40px;
-    text-align: center;
-    justify-content: center;
-    border: 1px solid red;
+    
   }
 
   .rock_button{
   display: inline-block;
   height: 70px;
-  width: 150px;
-  margin-top: 20px;
-  padding-top: 10px;
+  width: 120px;
+  margin-top: 0px;
+  padding-top: 0px;
   cursor: pointer;
   border: none;
+  position: relative;
+  left: 0px;
+  top: -10px;
   }
   
   .rock_picture{
   height: 70px;
   cursor: pointer;
   border-radius: 20px;
+  border: 0px;
   }
   
   
   .paper_button{
     display: inline-block;
     height: 70px;
-    margin-top: 20px;
-    padding-top: 10px;
+    margin-top: 0px;
+    padding-top: 5px;
     cursor: pointer;
+    position: relative;
+    left: -10px;
+    top: -10px;
   }
   
   .paper_picture{
@@ -248,10 +252,13 @@ border-radius: 120px;
   .scissors_button{
     display: inline-block;
     height: 70px;
-    margin-top: 20px;
-    padding-top: 10px;
+    margin-top: 0px;
+    padding-top: 5px;
     padding-right: 20px;
     cursor: pointer;
+    position: relative;
+    left: -20px;
+    top: -10px;
   }
   
   .scissors_picture{
@@ -314,9 +321,8 @@ border-radius: 120px;
   
   .results{
     position: absolute;
-    top: 500px;
-    left: 20px;
-    border: 2px solid gray;
+    top: 480px;
+    left: 80px;
     padding: 3px;
     font-family: Roboto, Arial;
     width: 190px;
@@ -342,11 +348,10 @@ border-radius: 120px;
   
   .final_picks{
     position: absolute;
-    top:220px;
+    top:180px;
     left: 20px;
     width: 200px;
     height: 240px;
-    border: 2px solid gray;
     border-radius: 10px;
   }
   
@@ -574,7 +579,7 @@ border-radius: 120px;
   }
 }
 
-@media (min-width:764px) and (max-width: 1142px){
+@media (min-width:764px) and (max-width: 1232px){
  
   .reset_button{
     display: inline-block;
