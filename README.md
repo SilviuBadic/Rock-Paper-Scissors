@@ -42,7 +42,7 @@ Other than working with functions, I've managed to deepen my knowledge in constr
 
 Here are some other related projects
 
-[Portfolio](https://silviubadic.github.io/portfolio/html/index.html) 
+[Amazon Project](https://github.com/SilviuBadic/Javascript-Amazon-Project) 
 
 [Tic-Tac-Toe](https://github.com/SilviuBadic/tic-tac-toe-javascript)
 
